@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+}
+.Menu {
+    margin: 0;
+    background-color: rgb(32, 135, 37);
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+.Menu ul {
+    margin: 20px;
+    list-style: none;
+}
+.Menu a {
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(32, 135, 37);
+}
+.Menu a:hover {
+    background-color: rgb(4, 66, 4);
+}

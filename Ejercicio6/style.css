@@ -1,0 +1,49 @@
+body {
+    color: grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Contenedor-ppal {
+    display: flex;
+    justify-content: space-evenly;
+}
+.Contenedor-info {
+    display: flex;
+}
+.informacion{
+    margin-left: 10px;
+}
+#titulo {
+    font-size: 18px;
+    margin: 4px;
+}
+#subtitulo {
+    margin: 4px;
+}
+.botones {
+    height: 40px;
+    border-radius: 10px;
+}
+#cita {
+    background-color: white;
+    border: 2px solid gray;
+}
+#presupuesto {
+    background-color: gray;
+    color: white;
+    border: none
+}
+.Contenedor-coment {
+    display: flex;
+    align-items: center;
+}
+.puntuacion {
+    background-color: grey;
+    color: black;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.puntuacion p {
+    margin: 0;
+}
+
